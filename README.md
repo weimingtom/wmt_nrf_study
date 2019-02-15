@@ -11,3 +11,5 @@ My nRF52 study
 * nrfutil  
 * https://github.com/NordicSemiconductor/pc-nrfutil  
 
+## Arduino Core for nRF5    
+* https://github.com/sandeepmistry/arduino-nRF5  
