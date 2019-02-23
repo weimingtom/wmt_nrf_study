@@ -17,3 +17,6 @@ My nRF52 study
 ## ARM toolchain  
 * https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads  
 * https://launchpad.net/gcc-arm-embedded  
+
+## MSys2  
+* https://mirrors.tuna.tsinghua.edu.cn/help/msys2/  
