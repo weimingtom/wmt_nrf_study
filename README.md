@@ -23,3 +23,6 @@ My nRF52 study
 
 ## Doc  
 * https://www.nordicsemi.com/DocLib?Product=nrf52840  
+
+## 红旭开发板  
+* https://github.com/xiaolongba/HX_DK_FOR_NORDIC_52840_BLE  
