@@ -8,6 +8,7 @@ My nRF52 study
 * nRF Connect  
 * https://github.com/NordicSemiconductor/pc-nrfconnect-programmer  
 * https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Connect-for-desktop  
+* Flash < 892KB  
 * nrfutil  
 * https://github.com/NordicSemiconductor/pc-nrfutil  
 
