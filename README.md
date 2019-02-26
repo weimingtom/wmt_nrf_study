@@ -22,8 +22,12 @@ My nRF52 study
 ## MSys2， tsinghua    
 * https://mirrors.tuna.tsinghua.edu.cn/help/msys2/  
 
-## Doc  
+## Official Doc  
 * https://www.nordicsemi.com/DocLib?Product=nrf52840  
+* http://infocenter.nordicsemi.com/pdf/nRF52840_Dongle_User_Guide_v1.0.pdf  
+* http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.tools%2Fdita%2Ftools%2Ftools.html  
+* http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.tools%2Fdita%2Ftools%2Fnrfutil%2Fnrfutil_intro.html  
+
 
 ## 红旭开发板  
 * https://github.com/xiaolongba/HX_DK_FOR_NORDIC_52840_BLE  
