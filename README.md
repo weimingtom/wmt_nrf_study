@@ -20,3 +20,6 @@ My nRF52 study
 
 ## MSys2， tsinghua    
 * https://mirrors.tuna.tsinghua.edu.cn/help/msys2/  
+
+## Doc  
+* https://www.nordicsemi.com/DocLib?Product=nrf52840  
