@@ -26,3 +26,6 @@ My nRF52 study
 
 ## 红旭开发板  
 * https://github.com/xiaolongba/HX_DK_FOR_NORDIC_52840_BLE  
+
+## 微雪 nRF52840开发板  
+* http://www.waveshare.net/wiki/NRF52840_Eval_Kit  
