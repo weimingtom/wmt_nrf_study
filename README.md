@@ -34,3 +34,7 @@ My nRF52 study
 
 ## 微雪 nRF52840开发板  
 * http://www.waveshare.net/wiki/NRF52840_Eval_Kit  
+
+## micro:bit offline    
+* https://www.kittenbot.cn/software/  
+* https://makecode.microbit.org/offline  
