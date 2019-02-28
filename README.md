@@ -43,3 +43,13 @@ My nRF52 study
 ## 喵比特, kittenbot  
 * https://kittenbot.github.io/meowbit-tutorials/  
 * https://kittenbot.taobao.com  
+
+## Mu Editor  
+* https://codewith.mu  
+* https://www.kittenbot.cn/software/  
+
+## PyGame Zero  
+* https://codewith.mu/en/tutorials/1.0/pgzero  
+* https://pygame-zero.readthedocs.io/en/stable/  
+
+
