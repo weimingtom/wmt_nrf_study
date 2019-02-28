@@ -42,3 +42,4 @@ My nRF52 study
 
 ## 喵比特, kittenbot  
 * https://kittenbot.github.io/meowbit-tutorials/  
+* https://kittenbot.taobao.com  
