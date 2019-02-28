@@ -38,3 +38,5 @@ My nRF52 study
 ## micro:bit offline    
 * https://www.kittenbot.cn/software/  
 * https://makecode.microbit.org/offline  
+* https://makecode.microbit.org  
+
