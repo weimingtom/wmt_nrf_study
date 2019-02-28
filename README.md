@@ -40,3 +40,5 @@ My nRF52 study
 * https://makecode.microbit.org/offline  
 * https://makecode.microbit.org  
 
+## 喵比特, kittenbot  
+* https://kittenbot.github.io/meowbit-tutorials/  
