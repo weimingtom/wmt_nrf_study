@@ -52,4 +52,12 @@ My nRF52 study
 * https://codewith.mu/en/tutorials/1.0/pgzero  
 * https://pygame-zero.readthedocs.io/en/stable/  
 
+## Micro:bit, 开源硬件商城    
+* http://microbit.org/zh-CN/  
+* https://makecode.microbit.org/  
+* https://makecode.microbit.org/projects  
+* https://microbit-micropython.readthedocs.io/en/latest/  
+* http://microbit.org/ecosystem-bycountry/  
+* http://microbit.org/resellers/  
+
 
