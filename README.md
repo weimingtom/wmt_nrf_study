@@ -60,4 +60,6 @@ My nRF52 study
 * http://microbit.org/ecosystem-bycountry/  
 * http://microbit.org/resellers/  
 
+## mixly  
+http://mixly.org  
 
