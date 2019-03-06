@@ -63,3 +63,6 @@ My nRF52 study
 ## mixly  
 http://mixly.org  
 
+## makecode cli  
+https://makecode.com/cli  
+
