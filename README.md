@@ -12,6 +12,27 @@ My nRF52 study
 * nrfutil  
 * https://github.com/NordicSemiconductor/pc-nrfutil  
 
+## windows xp下安装nrf52840 usb dongle开发板的开发环境  
+xp下测试  
+(1) 解压安装msys_v11.7z  
+(2) 解压nRF5SDK1500a53641a.zip到msys\home\a\nrf52840-mdk-usb-dongle\nrf_sdks\nRF5_SDK_15.0.0_a53641a  
+(3) 安装gcc-arm-none-eabi-6-2017-q2-update-win32.zip，然后把安装目录复制到msys\home\a\gcc-arm-none-eabi-6-2017-q2-update-win32  
+(3) 修改~/nrf52840-mdk-usb-dongle/nrf_sdks/nRF5_SDK_15.0.0_a53641a/components/toolchain/gcc/Makefile.windows:  
+#GNU_INSTALL_ROOT := C:/Program Files (x86)/GNU Tools ARM Embedded/6 2017-q2-update/bin/  
+GNU_INSTALL_ROOT := /home/a/gcc-arm-none-eabi-6-2017-q2-update-win32/bin/  
+注意/home/a/修改为实际的用户名路径  
+(4) 解压nrfutil_xp_patch_v1.rar里面的nrfutil.exe到bin/  
+(5) 短接RESET脚和GND脚（或者长按reset按钮），然后插入到电脑usb口，红灯心跳亮暗  
+(6) 在设备管理器中更改有问号的驱动，在对话框中把位置指向  
+msys\home\a\nrf52840-mdk-usb-dongle\nrf_sdks\nRF5_SDK_15.0.0_a53641a\examples\usb_drivers  
+，然后就能安装驱动成功  
+(7) 编译和上传到串口COM10（修改为实际的串口号码）  
+$ cd  ~/nrf52840-mdk-usb-dongle/examples/nrf5-sdk/blinky/armgcc  
+$ make clean  
+$ make  
+$ make flash-usb-serial USB_SERIAL_DEVICE=COM10  
+(8) 拔出reset和gnd的短接线，然后重新插拔usb重启开发板  
+
 ## Arduino Core for nRF5    
 * https://github.com/sandeepmistry/arduino-nRF5  
 
