@@ -44,6 +44,7 @@ https://github.com/makerdiary/nrf52840-mdk-usb-dongle/issues/5
 @set PATH=C:\Program Files\Nordic Semiconductor\nrf5x\bin;%PATH%  
 @cmd  
 (3) 刷bootloader  
+https://github.com/makerdiary/nrf52840-mdk-usb-dongle/tree/master/firmware/open_bootloader  
 nrfjprog --program nrf52840_usb_dongle_open_bootloader_v1_1_0.hex --chiperase -f nrf52 --reset  
 
 ## 造物小店的nrf52840 usb dongle开发板救砖，参考资料（与这个开发板无关）：  
