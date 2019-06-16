@@ -124,5 +124,8 @@ https://makecode.com/cli
 ## Nordic NRF52-DK  
 pca10040  
 
+## Nordic NRF52840 DONGLE  
+pca10056 ???    
+
 ## 讯联电子  
 http://infor-link.com/forum.php  
