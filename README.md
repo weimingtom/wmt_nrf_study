@@ -125,7 +125,12 @@ https://makecode.com/cli
 pca10040  
 
 ## Nordic NRF52840 DONGLE  
-pca10056 ???    
+PCA10059  
+https://www.nordicsemi.com/?sc_itemid={CDCCA013-FE4C-4655-B20C-1557AB6568C9}  
 
 ## 讯联电子  
 http://infor-link.com/forum.php  
+
+## Nordic DevZone  
+https://devzone.nordicsemi.com  
+
