@@ -38,7 +38,7 @@ $ make flash-usb-serial USB_SERIAL_DEVICE=COM10
 https://github.com/makerdiary/nrf52840-mdk-usb-dongle/issues/5  
 那个issue没有提及具体怎么做，我是参考网上的做法，用命令行刷的，需要先安装nRF5x-Command-Line-Tools，然后执行nrfjprog --program nrf52840_usb_dongle_open_bootloader_v1_1_0.hex --chiperase -f nrf52 --reset，这个命令行会调用j-link的dll执行刷写操作，然后就可以看到久违的红灯呼吸灯了（表示恢复原来的dfu串口模式）。不过我又发现一个别的问题，SDK里面的串口驱动居然无法在win7下正常安装，但在xp下是可以正常安装驱动，可能要装nrfgo才可以解决这个问题  
 
-## 造物小店，错误刷了MDK编译工程后变砖，救砖方法（win7下）：  
+## 造物小店，错误刷了MDK编译工程后变砖，救砖方法（win7下，需要接好j-link ob的4线swd接口，可从中景园购买）：    
 (1) 先安装nRF5x-Command-Line-Tools_9_8_1_Installer_64.exe  
 (2) 加入PATH  
 @set PATH=C:\Program Files\Nordic Semiconductor\nrf5x\bin;%PATH%  
