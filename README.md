@@ -12,7 +12,7 @@ My nRF52 study
 * nrfutil  
 * https://github.com/NordicSemiconductor/pc-nrfutil  
 
-## windows xp下安装nrf52840 usb dongle开发板的开发环境  
+## 造物小店，windows xp下安装nrf52840 usb dongle开发板的开发环境  
 xp下测试  
 (1) 解压安装msys_v11.7z  
 (2) 解压nRF5SDK1500a53641a.zip到msys\home\a\nrf52840-mdk-usb-dongle\nrf_sdks\nRF5_SDK_15.0.0_a53641a  
@@ -32,6 +32,25 @@ $ make clean
 $ make  
 $ make flash-usb-serial USB_SERIAL_DEVICE=COM10  
 (8) 拔出reset和gnd的短接线，然后重新插拔usb重启开发板  
+
+## 造物小店的nrf52840 usb dongle开发板救砖，救砖方法，weibo  
+晚上终于把造物小店版的nrf52840 dongle救砖成功了，参考那个github issue的做法，用j-link ob刷入bootloader即可。  
+https://github.com/makerdiary/nrf52840-mdk-usb-dongle/issues/5  
+那个issue没有提及具体怎么做，我是参考网上的做法，用命令行刷的，需要先安装nRF5x-Command-Line-Tools，然后执行nrfjprog --program nrf52840_usb_dongle_open_bootloader_v1_1_0.hex --chiperase -f nrf52 --reset，这个命令行会调用j-link的dll执行刷写操作，然后就可以看到久违的红灯呼吸灯了（表示恢复原来的dfu串口模式）。不过我又发现一个别的问题，SDK里面的串口驱动居然无法在win7下正常安装，但在xp下是可以正常安装驱动，可能要装nrfgo才可以解决这个问题  
+
+## 造物小店，错误刷了MDK编译工程后变砖，救砖方法（win7下）：  
+(1) 先安装nRF5x-Command-Line-Tools_9_8_1_Installer_64.exe  
+(2) 加入PATH  
+@set PATH=C:\Program Files\Nordic Semiconductor\nrf5x\bin;%PATH%  
+@cmd  
+(3) 刷bootloader  
+nrfjprog --program nrf52840_usb_dongle_open_bootloader_v1_1_0.hex --chiperase -f nrf52 --reset  
+
+## 造物小店的nrf52840 usb dongle开发板救砖，参考资料（与这个开发板无关）：  
+https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/flashing-the-bootloader  
+https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF5-Command-Line-Tools/Download#infotabs  
+https://devzone.nordicsemi.com/nordic/short-range-guides/b/getting-started/posts/nrf52840-dongle-programming-tutorial  
+nrfjprog --program bootloader_binary.hex --chiperase -f nrf52 --reset  
 
 ## MDK5，讯联电子nrf52832 breakout  
 (1) 打开E:\mcu\nrf\nrf52832_xunlian\3.软件开发包(SDK)\nRF5_SDK_15.0.0_a53641a\examples\peripheral\blinky\pca10040\blank\arm5_no_packs  
