@@ -137,7 +137,9 @@ https://devzone.nordicsemi.com
 ## Bluefruit52  
 https://github.com/Afantor/Afantor_Bluefruit52_Arduino  
 https://blog.csdn.net/solar_Lan/article/details/88688451  
+https://blog.csdn.net/solar_Lan/article/details/89034075  
 http://www.afantor.cc  
 
 ## Adafruit Bluefruit nRF52 Feather  
 https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/bluefruit-nrf52-api  
+
