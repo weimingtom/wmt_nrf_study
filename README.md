@@ -66,6 +66,13 @@ nRF5_SDK_15.0.0_a53641a\examples\peripheral\blinky\pca10040\blank\arm5_no_packs
 (3) 通过MDK5的download按钮，即可完成固件的下载，并且立即看到运行效果。注意，pca10040文件夹中还有mbr和s132这两种MDK5工程，我试过无法看到闪灯的运行效果，估计可能需要刷对应的mbr和softdevice固件才能看到正确的运行效果。  
 (4) 如果查看源代码的定义，可以发现boards.c和pca10040.h这两个定义板载资源的源文件，里面会提到LED_1, LED_2, LED_3, LED_4这四个脚，对应的是17、18、19、20这四个脚。这时候就可以看到讯联的开发板的优点——板上印的数字编号即对应代码里面的编号，不需要自己想办法对应。由于讯联的开发板跟nrf官方的开发板pca10040有出入，所以我这里的电路接法是接了19和20这两个针脚，至于17和18的两个灯是板载的LED灯。照片中板载的三个LED灯，最上方红灯是电源灯，下面的两个红灯分别对应17和18脚  
 
+## Arduino IDE，讯联电子nrf52832 breakout  
+(1) 安装nrfjprog  
+C:\Program Files\Nordic Semiconductor\nrf5x\bin  
+(2) 3个文件打补丁（基于nRF5DK）  
+C:\Arduino\Portable\packages\sandeepmistry\hardware\nRF5\0.6.0  
+(3) 选择Xunlian nRF52 Breakout，然后编译上传Blink示例程序  
+
 ## Arduino Core for nRF5    
 * https://github.com/sandeepmistry/arduino-nRF5  
 
