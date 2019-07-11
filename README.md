@@ -1,4 +1,4 @@
-# wmt_nrf_study
+﻿# wmt_nrf_study
 My nRF52 study
 
 ## nrf52840-mdk-usb-dongle Ref  
@@ -67,6 +67,7 @@ nRF5_SDK_15.0.0_a53641a\examples\peripheral\blinky\pca10040\blank\arm5_no_packs
 (4) 如果查看源代码的定义，可以发现boards.c和pca10040.h这两个定义板载资源的源文件，里面会提到LED_1, LED_2, LED_3, LED_4这四个脚，对应的是17、18、19、20这四个脚。这时候就可以看到讯联的开发板的优点——板上印的数字编号即对应代码里面的编号，不需要自己想办法对应。由于讯联的开发板跟nrf官方的开发板pca10040有出入，所以我这里的电路接法是接了19和20这两个针脚，至于17和18的两个灯是板载的LED灯。照片中板载的三个LED灯，最上方红灯是电源灯，下面的两个红灯分别对应17和18脚  
 
 ## Arduino IDE，讯联电子nrf52832 breakout  
+see nrf52832breakout_xunlian\nrf52832_xunlian_arduino.zip  
 (1) 安装nrfjprog  
 C:\Program Files\Nordic Semiconductor\nrf5x\bin  
 (2) 3个文件打补丁（基于nRF5DK）  
