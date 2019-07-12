@@ -68,7 +68,9 @@ nRF5_SDK_15.0.0_a53641a\examples\peripheral\blinky\pca10040\blank\arm5_no_packs
 
 ## Arduino IDE，讯联电子nrf52832 breakout  
 see nrf52832breakout_xunlian\nrf52832_xunlian_arduino.zip  
-(1) 安装nrfjprog  
+(0) j-link ob连接4线（包括3.3V供电）, 不需要接usb口供电  
+可以用j-flash测试是否能读出整片flash  
+(1) 安装nrfjprog （安装时自动安装j-flash）  
 nRF Command Line Tools (or nRF5x-Command-Line-Tools)  
 https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Command-Line-Tools  
 C:\Program Files\Nordic Semiconductor\nrf5x\bin  
