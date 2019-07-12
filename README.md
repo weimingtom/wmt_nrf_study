@@ -69,7 +69,7 @@ nRF5_SDK_15.0.0_a53641a\examples\peripheral\blinky\pca10040\blank\arm5_no_packs
 ## Arduino IDE，讯联电子nrf52832 breakout  
 see nrf52832breakout_xunlian\nrf52832_xunlian_arduino.zip  
 (1) 安装nrfjprog  
-nRF Command Line Tools  
+nRF Command Line Tools (or nRF5x-Command-Line-Tools)  
 https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Command-Line-Tools  
 C:\Program Files\Nordic Semiconductor\nrf5x\bin  
 (2) 3个文件打补丁（基于nRF5DK）  
