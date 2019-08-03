@@ -1,0 +1,30 @@
+//modules/nrfx/hal/nrf_gpio.h
+#define NRF_GPIO_PIN_MAP(port, pin) (((port) << 5) | ((pin) & 0x1F))
+#if defined(NRF52832_BREAKOUT)
+//nrf52832
+//nRF5_SDK_15.0.0_a53641a\components\boards\pca10040.h
+#define LED_START      17
+#define LED_1          17
+#define LED_2          18
+#define LED_3          19
+#define LED_4          20
+#define LED_STOP       20
+#elif defined(NRF52840_BREAKOUT)
+//nrf52840
+//nRF5_SDK_15.0.0_a53641a\components\boards\pca10056.h
+#define LED_1          NRF_GPIO_PIN_MAP(0,13)
+#define LED_2          NRF_GPIO_PIN_MAP(0,14)
+#define LED_3          NRF_GPIO_PIN_MAP(0,15)
+#define LED_4          NRF_GPIO_PIN_MAP(0,16)
+#endif
+
+void setup() {
+  pinMode(LED_1, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED_1, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(500);                       // wait for a second
+  digitalWrite(LED_1, LOW);    // turn the LED off by making the voltage LOW
+  delay(500);                       // wait for a second
+}

@@ -76,7 +76,11 @@ https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Command-Line
 C:\Program Files\Nordic Semiconductor\nrf5x\bin  
 (2) 3个文件打补丁（基于nRF5DK）  
 C:\Arduino\Portable\packages\sandeepmistry\hardware\nRF5\0.6.0  
-(3) 选择Xunlian nRF52 Breakout，然后编译上传Blink示例程序  
+(3) 选择Xunlian nRF52832 Breakout或者Xunlian nRF52840 Breakout，然后编译上传下面修改过的Blink示例程序：  
+nrf52832breakout_xunlian/blink_nrf52840breakout.txt  
+(4) 如果自己制作board，请复制Generic，不要复制nrf52dk，因为nrf52dk做了特定的端口映射，digitalWrite的数字参数不是对应实际官方定义的端口编号。另外NRF_GPIO_PIN_MAP可能会超出Generic的最大端口映射数，详细参考  
+C:\Arduino\Portable\packages\sandeepmistry\hardware\nRF5\0.6.0\variants\Generic\variant.cpp  
+中g_ADigitalPinMap的定义  
 
 ## Arduino Core for nRF5    
 * https://github.com/sandeepmistry/arduino-nRF5  
