@@ -85,6 +85,9 @@ C:\Arduino\Portable\packages\sandeepmistry\hardware\nRF5\0.6.0\variants\Generic\
 ## Arduino Core for nRF5    
 * https://github.com/sandeepmistry/arduino-nRF5  
 
+## Adafruit code for the Nordic nRF52 BLE SoC on Arduino  
+* https://github.com/adafruit/Adafruit_nRF52_Arduino  
+
 ## ARM toolchain  
 * https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads  
 * https://launchpad.net/gcc-arm-embedded  
