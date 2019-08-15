@@ -162,3 +162,6 @@ http://www.afantor.cc
 ## Adafruit Bluefruit nRF52 Feather  
 https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/bluefruit-nrf52-api  
 
+## nRF24/RF24  
+https://github.com/nRF24/RF24  
+
