@@ -169,3 +169,6 @@ https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/bluefruit-nrf5
 ## nRF24/RF24  
 https://github.com/nRF24/RF24  
 
+## makerdiary/nrf52840-mdk  
+https://github.com/makerdiary/nrf52840-mdk/blob/master/docs/hardware/nrf52840-mdk-pinout-diagram-v1_0.pdf  
+https://github.com/makerdiary/nrf52840-mdk/blob/master/docs/cn/nrf5-sdk/index.md  
