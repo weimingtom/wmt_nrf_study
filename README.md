@@ -9,6 +9,7 @@ https://makecode.microbit.org/docs
 https://makecode.microbit.org/reference  
 蓝牙, bluetooth    
 https://www.waveshare.net/wiki/Chapter_8_of_KitiBot_for_Micro:bit  
+https://github.com/microbit-foundation/microbit-blue  
 
 ## nrf52840-mdk-usb-dongle Ref  
 * https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/  
