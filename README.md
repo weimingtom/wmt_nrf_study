@@ -4,6 +4,10 @@ My nRF52 study
 ## msys  
 search baidupan, msys_nrf52840-mdk.rar  
 
+## micro:bit ref  
+https://makecode.microbit.org/docs  
+https://makecode.microbit.org/reference  
+
 ## nrf52840-mdk-usb-dongle Ref  
 * https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/  
 * sdk ref to https://wiki.makerdiary.com/nrf52840-mdk/nrf5-sdk/  
