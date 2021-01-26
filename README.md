@@ -8,10 +8,34 @@ search baidupan, msys_nrf52840-mdk.rar
 https://makecode.microbit.org/docs  
 https://makecode.microbit.org/reference  
 蓝牙, bluetooth    
-https://www.waveshare.net/wiki/Chapter_8_of_KitiBot_for_Micro:bit  
 https://github.com/microbit-foundation/microbit-blue  
 https://leesei.github.io/micro-bit/  
 search baidupan, microbit-blue-master  
+
+## waveshare micro:bit bluetooth  
+https://www.waveshare.net/wiki/Chapter_8_of_KitiBot_for_Micro:bit    
+Com-bluetooth-mwoolley-microbitbledemo.7.apk  
+```
+def on_bluetooth_connected():
+    basic.show_string("C")
+bluetooth.on_bluetooth_connected(on_bluetooth_connected)
+
+def on_bluetooth_disconnected():
+    basic.show_string("D")
+bluetooth.on_bluetooth_disconnected(on_bluetooth_disconnected)
+
+bluetooth.start_accelerometer_service()
+bluetooth.start_button_service()
+bluetooth.start_led_service()
+bluetooth.start_temperature_service()
+
+def on_forever():
+    pass
+basic.forever(on_forever)
+```
+a) add bluetooth in makecode, removing radio  
+b) close android app settings filter unpair  
+c) change makecode project setting, NO Pairing  
 
 ## nrf52840-mdk-usb-dongle Ref  
 * https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/  
