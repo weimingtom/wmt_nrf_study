@@ -208,3 +208,10 @@ https://github.com/nRF24/RF24
 ## makerdiary/nrf52840-mdk  
 https://github.com/makerdiary/nrf52840-mdk/blob/master/docs/hardware/nrf52840-mdk-pinout-diagram-v1_0.pdf  
 https://github.com/makerdiary/nrf52840-mdk/blob/master/docs/cn/nrf5-sdk/index.md  
+
+## nRF5340 DK  
+* D:\ncs\v2.3.0\nrf\include\dk_buttons_and_leds.h  
+* https://devzone.nordicsemi.com/nordic/b/archives/posts/ncs-tutorial---temporary  
+* https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/working_with_nrf/nrf53/nrf5340.html  
+* peripheral_lbs  
+* D:\ncs\v2.3.0\nrf\samples\bluetooth\peripheral_lbs\src  
