@@ -215,3 +215,7 @@ https://github.com/makerdiary/nrf52840-mdk/blob/master/docs/cn/nrf5-sdk/index.md
 * https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/working_with_nrf/nrf53/nrf5340.html  
 * peripheral_lbs  
 * D:\ncs\v2.3.0\nrf\samples\bluetooth\peripheral_lbs\src  
+
+## wristband, nrf51822, nrf52832  
+* https://github.com/sommer78/HeartRate/tree/master/document/nrf52832  
+* https://github.com/sommer78/HeartRate/tree/master/wrist-rom-master-code  
