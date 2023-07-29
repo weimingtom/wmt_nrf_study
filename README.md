@@ -219,3 +219,14 @@ https://github.com/makerdiary/nrf52840-mdk/blob/master/docs/cn/nrf5-sdk/index.md
 ## wristband, nrf51822, nrf52832  
 * https://github.com/sommer78/HeartRate/tree/master/document/nrf52832  
 * https://github.com/sommer78/HeartRate/tree/master/wrist-rom-master-code  
+
+## nrf remote control PC      
+* https://github.com/NordicPlayground/shortcut-remote-demo
+* https://www.hackster.io/videos/1108
+
+## nrf-doom, micro:bit remote gamepad  
+* https://github.com/NordicPlayground/nrf-doom
+* RCmall 5V Gamepad Module with Buzzer onboard for BBC Micro:bit Microbit Joystick & Buttons  
+waveshare, Joystick for micro:bit
+
+
