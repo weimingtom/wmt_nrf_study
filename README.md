@@ -228,6 +228,7 @@ https://github.com/makerdiary/nrf52840-mdk/blob/master/docs/cn/nrf5-sdk/index.md
 * https://github.com/NordicPlayground/nrf-doom
 * RCmall 5V Gamepad Module with Buzzer onboard for BBC Micro:bit Microbit Joystick & Buttons  
 waveshare, Joystick for micro:bit
+* https://github.com/DFRobot/pxt-gamePad  
 
 ## nus, A Web Command Line Interface via NUS (Nordic UART Service) using Web Bluetooth.  
 * https://github.com/makerdiary/web-device-cli  
