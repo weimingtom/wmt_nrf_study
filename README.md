@@ -233,3 +233,6 @@ waveshare, Joystick for micro:bit
 ## nus, A Web Command Line Interface via NUS (Nordic UART Service) using Web Bluetooth.  
 * https://github.com/makerdiary/web-device-cli  
 
+## ESP32 SWD Flasher for nRF52  
+* https://github.com/atc1441/ESP32_nRF52_SWD  
+
