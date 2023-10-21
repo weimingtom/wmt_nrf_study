@@ -241,3 +241,4 @@ waveshare, Joystick for micro:bit
 * https://github.com/gbuzogany/nrf52-lvgl-st7735s  
 * https://github.com/Lotlab/nrf52-keyboard  
 * https://github.com/mafaneh/ble-ebook-project  
+* https://github.com/edgeimpulse/example-standalone-inferencing-zephyr  
