@@ -236,3 +236,8 @@ waveshare, Joystick for micro:bit
 ## ESP32 SWD Flasher for nRF52  
 * https://github.com/atc1441/ESP32_nRF52_SWD  
 
+## (TODO) 未整理项目  
+* https://github.com/Emeryth/sma-q2-oss  
+* https://github.com/gbuzogany/nrf52-lvgl-st7735s  
+* https://github.com/Lotlab/nrf52-keyboard  
+* https://github.com/mafaneh/ble-ebook-project  
