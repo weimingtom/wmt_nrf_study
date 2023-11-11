@@ -268,3 +268,7 @@ waveshare, Joystick for micro:bit
 这样就可以看到别人的库——缺点是你只能导入一个第三方库。补注：可以通过扩展搜索导入gh链接，
 应该只要是自己导出到gh的项目都可以这样做（在左下角有个gh图标的按钮，可以把项目文件存储到gh）
 ```
+* https://github.com/sdjngyq/MFDLCD1in8
+vertical  
+* https://github.com/sdjngyq/MFDLCD18_H
+horizon  
