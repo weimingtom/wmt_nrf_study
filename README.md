@@ -247,4 +247,16 @@ waveshare, Joystick for micro:bit
 * https://github.com/waveshare/WSLCD1in8
 * https://www.waveshare.net/wiki/1.8inch_LCD_for_micro:bit
 * https://github.com/waveshare/PXT-WSLCD1in8
-* https://github.com/weimingtom/microbit_xmas_song  
+* https://github.com/weimingtom/microbit_xmas_song
+* https://github.com/DFRobot/pxt-gamePad
+* https://wiki.dfrobot.com.cn/_SKU_DFR0536__micro_bit%E6%B8%B8%E6%88%8F%E6%89%8B%E6%9F%84%E6%89%A9%E5%B1%95%E6%9D%BF
+* https://wiki.dfrobot.com.cn/_SKU_DFR0536__micro_bit游戏手柄扩展板
+* https://makecode.microbit.org/_YdWVgV7j7LhA
+* https://makecode.microbit.org/_Vot7AfUW7g6D
+* https://makecode.microbit.org/_PtgDRughPidF
+* https://makecode.microbit.org/_3WRLraYKPM2y
+* https://makecode.microbit.org/_1WYL7aKctdav
+* https://makecode.microbit.org/_eA13q2ao8W18
+* https://makecode.microbit.org/_Txyh7tPzs5F9
+* https://makecode.microbit.org/_eo52fw5ghMkX
+* 
