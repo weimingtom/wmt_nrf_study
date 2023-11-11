@@ -242,3 +242,9 @@ waveshare, Joystick for micro:bit
 * https://github.com/Lotlab/nrf52-keyboard  
 * https://github.com/mafaneh/ble-ebook-project  
 * https://github.com/edgeimpulse/example-standalone-inferencing-zephyr  
+
+## makecode project  
+* https://github.com/waveshare/WSLCD1in8
+* https://www.waveshare.net/wiki/1.8inch_LCD_for_micro:bit
+* https://github.com/waveshare/PXT-WSLCD1in8
+* https://github.com/weimingtom/microbit_xmas_song  
