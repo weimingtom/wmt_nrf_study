@@ -260,3 +260,11 @@ waveshare, Joystick for micro:bit
 * https://makecode.microbit.org/_Txyh7tPzs5F9
 * https://makecode.microbit.org/_eo52fw5ghMkX
 * https://github.com/weimingtom/dfrobot_gamepad_demo3  
+* How to import, 导入方法  
+```
+关于micro:bit的导入问题，网上会有一种说法是通过添加包来实现，例如这篇《1.8inch LCD for micro:bit》。
+但其实这个功能可能makecode已经没有了，我怀疑这个导入功能被另外一个功能取代，这个功能不是在新建项目之后，
+而是在新建项目之前，右上角有个导入按钮，然后选导入网址即可导入gh链接（或者你可以导入hex文件都行），
+这样就可以看到别人的库——缺点是你只能导入一个第三方库。补注：可以通过扩展搜索导入gh链接，
+应该只要是自己导出到gh的项目都可以这样做（在左下角有个gh图标的按钮，可以把项目文件存储到gh）
+```
